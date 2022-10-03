@@ -7,6 +7,71 @@
     <title>tutoHtml</title>
 </head>
 <body>
+    <!-- header sert a insérer du texte , des images ou autres... 
+    aussi on peut mettre des balises img , h1 , p , etc...-->
+    <header class="page-header">
+        <h1>Cute Puppies Express!</h1>
+    </header>
+    <!-- <main> est unique dans le document <main> n'affecte pas la structure même de la page, c'est un élément purement informatif.-->
+    <main>
+        <p>I love beagles <em>so</em> <em>much!</em> Like, really, a lot. They’re adorable and their ears are so, so snuggly soft!</p>
+    </main>
     
+
+    <article>
+        <p>
+          Le film Disney <cite>La petite Sirène</cite> est
+          sorti en salles en 1989.
+        </p>
+
+        <!-- Dans cet exemple, on utilise <aside> afin de baliser un paragraphe d'un article.
+             Ici, le paragraphe n'est pas directement lié au contenu principal de l'article 
+             et c'est pour cela qu'on utilise cet élément.-->
+        <aside>
+          <p>
+            Le film a gagné 87 millions de dollars pendant sa sortie initiale.
+          </p>
+        </aside>
+      </article>
+
+        <!-- Pour associer un élément <label> avec un élément <input>,
+             il faut fournir un identifiant à l'élément <input> sous la forme d'un attribut id-->
+      <form class="preference">
+        <label for="cheese">Do you like this moovie?</label>
+        <!-- L'élément HTML <input> est utilisé pour créer un contrôle interactif dans un formulaire web qui permet à l'utilisatrice ou l'utilisateur de saisir des données.-->
+        <input type="checkbox" name="cheese" id="cheese">
+    
+    
+    <form class="preference">
+        <label for="peas">Do you doesn't like this moovie?</label>
+        <input type="checkbox" name="peas" id="peas">
+
+      <article>
+    <h1>How to be a wizard</h1>
+    <ol>
+        <li>Grow a long, majestic beard.</li>
+        <li>Wear a tall, pointed hat.</li>
+        <li>Have I mentioned the beard?</li>
+    </ol>
+    <!-- <footer> sert a mettre du texte en bas de page -->
+    <footer>
+        <p>© 2018 Gandalf</p>
+    </footer>
+</article>
+
+<form class="preference">
+    <label for="cheese">Do you like cheese?</label>
+    <input type="checkbox" name="cheese" id="cheese">
+
+
+<form class="preference">
+    <label for="peas">Do you like peas?</label>
+    <input type="checkbox" name="peas" id="peas">
+
+
+
+
+    <!-- <script sert a lier ton HTML et JS-->
+    <script src="js/app.js"></script>
 </body>
 </html>
