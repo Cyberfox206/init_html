@@ -1,68 +1,95 @@
+<!--<!DOCTYPE html> permet de préciser au navigateur que le site utilise l'HTML5  -->
 <!DOCTYPE html>
-<html lang="fr">
+
+<!-- <html> permet de définir la racine du document -->
+<html lang="en">
+
+<!--La balise <head> est obligatoirement le premier enfant de <html>,lle fournit des information générale 
+    (métadonnées) sur le doc.La balise <head> contient principalement des données destinées au traitement automatisé 
+    et pas obligatoirement lisibles par des utilisateurs. Comme tous les éléments HTML, cet élément prend en charge les attributs universels.
+    Les navigateur sont généralement conforme au HTML5 et génère automatiquement l'élément <head>-->
+
 <head>
+
+    <!-- <meta> permet d'inclure des meta données qui ne peut pas être représentée par les éléments <base>, <link>, <script>, <style> ou <title> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tutoHtml</title>
-</head>
-<body>
-            <!-- header sert a insérer du texte , des images ou autres... 
-        aussi on peut mettre des balises img , h1 , p , etc...-->
-        <header>
 
-            <!--les balise <h1> jusqua <h6> permette de mettre des tire le nombre définit son importance
+    <!-- <tilte> donne un titre a la page (ne contient que du texte)-->
+    <title>introduction html </title>
+
+    <!-- <link> permet de faire le lien avec un element externe a la page -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <script sert a lier ton HTML et JS-->
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+    <!-- header sert a insérer du texte , des images ou autres... 
+        aussi on peut mettre des balises img , h1 , p , etc...-->
+    <header>
+
+        <!--les balise <h1> jusqua <h6> permette de mettre des tire le nombre définit son importance
             <h1> est le plus important et <h6> est le moin important. De plus la taille du text change 
             selon l'imortance, plus il sera important plus le titre sera grand -->
-            <h1>hello</h1> <h2>hello</h2> <h3>hello</h3> <h4>hello</h4> <h5>hello</h5> <h6>hello</h6>
+        <h1>hello</h1>
+        <h2>hello</h2>
+        <h3>hello</h3>
+        <h4>hello</h4>
+        <h5>hello</h5>
+        <h6>hello</h6>
 
-        </header>
+    </header>
 
-        <!-- <main> est unique dans le document <main> n'affecte pas la structure même de la page, c'est un élément purement informatif.-->
-        <main>
+    <!-- <main> est unique dans le document <main> n'affecte pas la structure même de la page, c'est un élément purement informatif.-->
+    <main>
 
-            <!--la balise <ol> permet de crée une liste numéroter dans l'ordre -->
-            <ol>
+        <!--la balise <ol> permet de crée une liste numéroter dans l'ordre -->
+        <ol>
 
-                <!--la balise <li> ne peut être utiliser que dans une liste <ol> ou <ul>, elle permet de 
+            <!--la balise <li> ne peut être utiliser que dans une liste <ol> ou <ul>, elle permet de 
                 mettre des élément dans une liste-->
-                <li>acheter du pain</li>
-                <li>acheter du fromage</li>
-                <li>acheter le lait </li>
-                <li>acheter des pates </li>
-                <li>acheter des croquette </li>
+            <li>acheter du pain</li>
+            <li>acheter du fromage</li>
+            <li>acheter le lait </li>
+            <li>acheter des pates </li>
+            <li>acheter des croquette </li>
 
-            </ol>
+        </ol>
 
-            <!--la balise <ul> permet aussi de crée une liste mais elle qui n'est pas numéroter c'est d"-->
-            <ul>
+        <!--la balise <ul> permet aussi de crée une liste mais elle qui n'est pas numéroter c'est d"-->
+        <ul>
 
-                <li>acheter du pain</li>
-                <li>acheter du fromage</li>
-                <li>acheter le lait </li>
-                <li>acheter des pates </li>
-                <li>acheter des croquette </li>
+            <li>acheter du pain</li>
+            <li>acheter du fromage</li>
+            <li>acheter le lait </li>
+            <li>acheter des pates </li>
+            <li>acheter des croquette </li>
 
-            </ul>
+        </ul>
 
-            <!-- Dans cet exemple, on utilise <aside> afin de baliser un paragraphe d'un article.
+        <!-- Dans cet exemple, on utilise <aside> afin de baliser un paragraphe d'un article.
              Ici, le paragraphe n'est pas directement lié au contenu principal de l'article 
              et c'est pour cela qu'on utilise cet élément.-->
-            <aside>
-                <p>hello</p>
-            </aside>
+        <aside>
+            <p>hello</p>
+        </aside>
 
-            
-            <nav>
-                <li><a href="">Accueil</a></li>
-                <li><a href="">À propos</a></li>
-                <li><a href="">Contact</a></li>
-            </nav>
-        </main>
 
-        <!-- <footer> sert a mettre du texte en bas de page -->
-        <footer>
+        <nav>
+            <li><a href="">Accueil</a></li>
+            <li><a href="">À propos</a></li>
+            <li><a href="">Contact</a></li>
+        </nav>
+    </main>
 
-        </footer>
+    <!-- <footer> sert a mettre du texte en bas de page -->
+    <footer>
+
+    </footer>
 </body>
+
 </html>
