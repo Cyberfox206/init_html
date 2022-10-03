@@ -10,15 +10,21 @@
     <!-- header sert a insérer du texte , des images ou autres... 
     aussi on peut mettre des balises img , h1 , p , etc...-->
     <header class="page-header">
-        <h1>Cute Puppies Express!</h1>
+                <!--les balise <h1> jusqua <h6> permette de mettre des tire le nombre définit son importance
+            <h1> est le plus important et <h6> est le moin important. De plus la taille du text change 
+            selon l'imortance, plus il sera important plus le titre sera grand -->
+            <h1>hello</h1> <h2>hello</h2> <h3>hello</h3> <h4>hello</h4> <h5>hello</h5> <h6>hello</h6>
+            <nav>
+                <li><a href="">Accueil</a></li>
+                <li><a href="">À propos</a></li>
+                <li><a href="">Contact</a></li>
+            </nav>
     </header>
-    <!-- <main> est unique dans le document <main> n'affecte pas la structure même de la page, c'est un élément purement informatif.-->
-    <main>
-        <p>I love beagles <em>so</em> <em>much!</em> Like, really, a lot. They’re adorable and their ears are so, so snuggly soft!</p>
-    </main>
-    
 
-    <article>
+        <!-- <main> est unique dans le document <main> n'affecte pas la structure même de la page, c'est un élément purement informatif.-->
+        <main>
+        
+            <article>
         <p>
           Le film Disney <cite>La petite Sirène</cite> est
           sorti en salles en 1989.
@@ -34,18 +40,6 @@
         </aside>
       </article>
 
-        <!-- Pour associer un élément <label> avec un élément <input>,
-             il faut fournir un identifiant à l'élément <input> sous la forme d'un attribut id-->
-      <form class="preference">
-        <label for="cheese">Do you like this moovie?</label>
-        <!-- L'élément HTML <input> est utilisé pour créer un contrôle interactif dans un formulaire web qui permet à l'utilisatrice ou l'utilisateur de saisir des données.-->
-        <input type="checkbox" name="cheese" id="cheese">
-    
-    
-    <form class="preference">
-        <label for="peas">Do you doesn't like this moovie?</label>
-        <input type="checkbox" name="peas" id="peas">
-
       <article>
     <h1>How to be a wizard</h1>
     <ol>
@@ -59,19 +53,51 @@
     </footer>
 </article>
 
-<form class="preference">
-    <label for="cheese">Do you like cheese?</label>
-    <input type="checkbox" name="cheese" id="cheese">
+        <!-- Pour associer un élément <label> avec un élément <input>,
+             il faut fournir un identifiant à l'élément <input> sous la forme d'un attribut id-->
+      <form class="preference">
+        <label for="cheese">Do you like this moovie?</label>
+        <!-- L'élément HTML <input> est utilisé pour créer un contrôle interactif dans un formulaire web qui permet à l'utilisatrice ou l'utilisateur de saisir des données.-->
+        <input type="checkbox" name="cheese" id="cheese">
 
+            <!--la balise <ol> permet de crée une liste numéroter dans l'ordre -->
+            <ol>
 
-<form class="preference">
-    <label for="peas">Do you like peas?</label>
-    <input type="checkbox" name="peas" id="peas">
+                <!--la balise <li> ne peut être utiliser que dans une liste <ol> ou <ul>, elle permet de 
+                mettre des élément dans une liste-->
+                <li>acheter du pain</li>
+                <li>acheter du fromage</li>
+                <li>acheter le lait </li>
+                <li>acheter des pates </li>
+                <li>acheter des croquette </li>
 
+            </ol>
 
+            <!--la balise <ul> permet aussi de crée une liste mais elle qui n'est pas numéroter c'est d"-->
+            <ul>
 
+                <li>acheter du pain</li>
+                <li>acheter du fromage</li>
+                <li>acheter le lait </li>
+                <li>acheter des pates </li>
+                <li>acheter des croquette </li>
 
-    <!-- <script sert a lier ton HTML et JS-->
+            </ul>
+
+            <!-- Dans cet exemple, on utilise <aside> afin de baliser un paragraphe d'un article.
+             Ici, le paragraphe n'est pas directement lié au contenu principal de l'article 
+             et c'est pour cela qu'on utilise cet élément.-->
+            <aside>
+                <p>hello</p>
+            </aside>
+
+        </main>
+
+        <!-- <footer> sert a mettre du texte en bas de page -->
+        <footer>
+
+        </footer>
+            <!-- <script sert a lier ton HTML et JS-->
     <script src="js/app.js"></script>
 </body>
 </html>
